@@ -1,0 +1,30 @@
+.container{
+    margin-top: 30px;
+    width: 200px;
+    background-image: linear-gradient( #9DC08B, #609966);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    margin-top: 40px;
+}
+
+.card{
+    width: 20rem;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 100%;
+}
