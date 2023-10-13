@@ -102,7 +102,6 @@ const options = {
   },
 };
 
-// Function to fetch and display data
 function fetchDataAndDisplay(country) {
   const apiUrl = `https://covid-193.p.rapidapi.com/statistics?country=${country}`;
 
@@ -116,11 +115,9 @@ function fetchDataAndDisplay(country) {
     });
 }
 
-// Function to parse and display data
 function parseData(data) {
-  const result = data.response[0]; // Assuming the response is an array
+  const result = data.response[0];
 
-  // Update the HTML elements with the data
   document.getElementById("outputActive").textContent = result.cases.active;
   document.getElementById("outputNew").textContent = result.cases.new;
   document.getElementById("outputRecovered").textContent = result.cases.recovered;
@@ -129,12 +126,10 @@ function parseData(data) {
   document.getElementById("outputTest").textContent = result.tests.total;
 }
 
-// Event listener for the "Cari" (Search) button
 const cariButton = document.getElementById("cariButton");
 cariButton.addEventListener("click", () => {
   const inputDataElement = document.getElementById("inputData");
   const inputData = inputDataElement.value;
 
-  // Call the function to fetch and display data
   fetchDataAndDisplay(inputData);
 });

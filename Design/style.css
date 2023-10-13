@@ -1,20 +1,29 @@
 .container{
     margin-top: 30px;
     width: 200px;
-    background-image: linear-gradient( #9DC08B, #609966);
+    height: 50rem;
+    background-image: linear-gradient( #CDFAD5, #F6FDC3);
+    /* background-image: linear-gradient( #F8BDEB, #FBECB2); */
+    /* background-image: linear-gradient( #9DC08B, #609966); */
 }
 
 .title{
     display: flex;
     justify-content: center;
+    margin: 50px;
+    font-family: 'Young Serif';
 }
 
 .wrapper{
-    margin-top: 40px;
+    margin-top: 8rem;
 }
 
 .card{
     width: 20rem;
+}
+
+.card-body{
+    background-color: #FFF5E0;
 }
 
 .card-title{
@@ -27,4 +36,16 @@
     justify-content: center;
     margin-top: 20px;
     border-radius: 100%;
+}
+
+.form input{
+    border-radius: 25px;
+    margin-right: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.form button{
+    border-radius: 20px;
+    padding: 0 15px 0 15px;
 }
