@@ -12,6 +12,7 @@
     justify-content: center;
     margin: 50px;
     font-family: 'Young Serif';
+    color: #176B87;
 }
 
 .wrapper{
@@ -23,12 +24,14 @@
 }
 
 .card-body{
-    background-color: #FFF5E0;
+    /* background-color: #1AACAC; */
+    background-image: linear-gradient( #D6D46D, #F4DFB6);
 }
 
 .card-title{
     display: flex;
     justify-content: center;
+    font-family: 'Tilt Neon';
 }
 
 .form{
@@ -36,6 +39,10 @@
     justify-content: center;
     margin-top: 20px;
     border-radius: 100%;
+}
+
+.form>.shadow{
+    border-color: #FACBEA;
 }
 
 .form input{
